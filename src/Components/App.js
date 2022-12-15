@@ -23,7 +23,7 @@ const searchedList=list.filter( search=>
 const renderedList=searchedList.map((coin)=>{
     return (
         <div className="ui horizontal segments lists" key={coin.id}>
-    <div className="listImg"><img className="listPic" src={coin.image}/> </div>
+    <div className="listImg"><img className="listPic" src={coin.image} alt=""/> </div>
     <div className="listName"><span className="spanName">{coin.name}</span> </div>
     <div className="listSym"><span>{coin.symbol.toUpperCase()}</span></div>
     <div className="listRank"><span>{coin.market_cap_rank}</span></div>
@@ -37,7 +37,7 @@ const renderedList=searchedList.map((coin)=>{
 
     return (
         <div>
-        <div className="nav"><h1><img src="https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579"/> Crypto check</h1></div>
+        <div className="nav"><h1><img src="https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579" alt=""/> Crypto check</h1></div>
         <div className="ui form">
         <div className="ui input focus" style={{marginLeft:"40px"}}>
   <input type="text" value={text} placeholder="Search Coin" onChange={onInputChange}/>
