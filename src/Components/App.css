@@ -1,0 +1,199 @@
+body{
+    background-color: #0d1b2a;
+    
+}
+.mainInput{ 
+    border-radius:18px;
+    width:250px;
+     height:40px;
+     background-color: #ccdbdc
+    }
+div.ui.horizontal.segments.head{
+    height:60px;
+     margin-left:40px;
+     margin-right:40px ;
+     padding:10px;
+    text-align: center;
+    background-color: slategray;
+}
+img{
+    width:40px;
+    margin-left: -40px;
+  
+}
+.headName{
+    width: 200px;
+    padding: 14px;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.headSym{
+    width: 150px;
+    padding: 14px;
+    border-left: 1px solid rgb(34,51,59);
+    font-weight: bolder;
+    font-size: 17px;
+}
+.headRank{
+    width: 150px;
+    padding: 14px;
+    border-left: 1px solid rgb(34,51,59);
+    font-weight: bolder;
+    font-size: 17px;
+}
+.headCp{
+    width: 250px;
+    padding: 14px;
+    border-left: 1px solid rgb(34,51,59);
+    font-weight: bolder;
+    font-size: 17px;
+}
+.headVol{
+    width: 250px;
+    padding: 14px;
+    border-left: 1px solid rgb(34,51,59);
+    font-weight: bolder;
+    font-size: 17px;
+}
+.headPc{
+    width: 200px;
+    padding: 14px;
+    border-left: 1px solid rgb(34,51,59);
+    font-weight: bolder;
+    font-size: 17px;
+}
+.headMc{
+    width: 250px;
+    padding: 14px;
+    border-left: 1px solid rgb(34,51,59);
+    font-weight: bolder;
+     font-size: 17px;
+}
+.nav{
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+   font-family:Crimson Text, serif;;
+    color: ivory;
+}
+div.ui.horizontal.segments.lists{
+    height:60px;
+     margin-left:40px;
+     margin-right:40px ;
+     padding:10px;
+    text-align: center;
+    background-color: #ccdbdc;
+}
+.listImg{
+   width:90px;
+} 
+.listName{
+    width:110px;
+    padding:14px;
+}
+.spanName {
+    margin-left:-50px;
+}
+.listSym{ 
+    width:150px;
+    padding:14px;
+    border-left:1px solid rgba(34,51,38,.15)
+}
+.listRank{
+    width:150px;
+    padding:14px;
+    border-left: 1px solid rgba(34,36,38,.15)
+}
+.listCp{
+    width:250px;
+    padding:14px;
+    border-left: 1px solid rgba(34,36,38,.15)
+}
+.listVol{
+    width:250px;
+    padding:14px;
+    border-left:1px solid rgba(34,36,38,.15)
+}
+.listChange{
+    width:200px;
+    padding:14px;
+    border-left: 1px solid rgba(34,36,38,.15)
+}
+.listMcp{
+    width:250px;
+    padding:14px;
+    border-left: 1px solid rgba(34,36,38,.15)
+}
+@media only screen and (max-width:1500px){
+    div.ui.horizontal.segments.head{
+        height:70px;
+       
+    } 
+    div.ui.horizontal.segments.lists{
+        height:70px; 
+        font-size: 12px;
+    } 
+    .listPic{
+        width: 30px;
+        margin-top: 10px;
+    }
+}
+    
+    @media only screen and (min-width:747px)and (max-width:1000px){
+        .listPic{
+            width: 30px;
+            margin-top: 10px;
+            margin-left: 0px;
+        }
+        .spanName {
+            margin-left:-17px;
+        }
+    }
+    @media only screen and (min-width:0px)and (max-width:747px){
+        .listPic{
+            width: 22px;
+            margin-top: 0px;
+            margin-left: -10px;
+        }
+        div.ui.horizontal.segments.head{
+           height:60px;
+            width: 98%;
+            margin-left: 1%; 
+        } 
+        div.ui.horizontal.segments.head  span{
+           
+         font-size: 10px;
+         padding: 0px;
+        } 
+        div.ui.horizontal.segments.head  div{
+            padding: 0px; 
+           }
+        div.ui.horizontal.segments.lists{
+            height:60px;
+            width: 98%;
+            margin-left: 1%;
+           
+        }
+        div.ui.horizontal.segments.lists span{
+          font-size: 10px!important;
+          padding: 0px;
+          font-weight: bold;
+        }
+        div.ui.horizontal.segments.lists div{
+            padding:3px;
+             
+          }
+        .spanName {
+            margin-left:0px;
+        }
+    }
+  
+
+     
+
+    
+
+
+
